@@ -83,7 +83,8 @@ body {
 	position: relative;
 	line-height: 1.4;
     
-	font-family: "AgoraSansProLight";
+	/*font-family: "AgoraSansProLight";*/
+    font-family: 'Lato', sans-serif;
 	overflow-x: hidden;
 }
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */

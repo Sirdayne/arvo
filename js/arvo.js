@@ -85,6 +85,32 @@ $(document).ready(function(){
         offset: 0
     });
         
+    $('.nav-waypoint-white').waypoint({
+        handler: function(direction) {
+            
+            if (direction === 'down') {
+                $('.navigation-white').addClass('navigation-white-active');
+                $('.nav-white').addClass('nav-active');
+                $('.nav-logo-white').addClass('nav-logo-active');
+                
+                $(scrollTop).removeClass('slideOutRightBig');
+                $(scrollTop).addClass('slideInRightBig');
+
+            } 
+            
+            else {
+                $('.navigation-white').removeClass('navigation-white-active');
+                $('.nav-white').removeClass('nav-active');
+                $('.nav-logo-white').removeClass('nav-logo-active');
+                
+                $(scrollTop).removeClass('slideInRightBig');
+                $(scrollTop).addClass('slideOutRightBig');
+            }
+        },
+        
+        offset: 0
+    });
+        
     }
     
  

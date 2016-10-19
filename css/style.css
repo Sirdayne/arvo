@@ -401,9 +401,27 @@ body{
     
     z-index: 10;
 }
+.navigation-white{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 90px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    
+    z-index: 10;
+}
 
 .navigation-active{
     background: rgba(0,0,0,0.94);
+    height: 60px;
+}
+
+.navigation-white-active{
+    background: #fff;
     height: 60px;
 }
 
@@ -418,6 +436,10 @@ body{
     margin-top: 25px;
     -webkit-transition: .3s linear;
     transition: .3s linear;
+}
+.nav-logo-white{
+    background: url(../img/header-mobile.png) center center no-repeat;
+    background-size: 100% 100%;
 }
 
 .nav-logo-active{
@@ -447,7 +469,14 @@ body{
     transition: .3s linear;
 }
 
+.nav-white a{
+    color: #858585;
+}
+
 .nav:hover a{
+    color: #3ab8bd;
+}
+.nav-hold a{
     color: #3ab8bd;
 }
 
@@ -537,7 +566,8 @@ body{
     color: #fff;
     
     font-size: 58px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: 700;
 }
 
 .header-right p{
@@ -546,7 +576,8 @@ body{
     color: rgba(237, 237, 237, 0.65098);
     
     font-size: 18px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .header-right button{
     float: left;
@@ -559,8 +590,8 @@ body{
     -webkit-transition: .3s linear;
     transition: .3s linear;
     
-    font-family: "AgoraSansProBold";
-    font-weight: 900;
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .header-right-button-1{
     background:  rgba(60, 186, 189, 1);
@@ -602,7 +633,8 @@ body{
     color: #fff;
     letter-spacing: 6px;
     font-size: 40px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 
 #main h2{
@@ -613,7 +645,8 @@ body{
     color: #cccccc;
     letter-spacing: 1px;
     font-size: 16px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .main-empty-block{
     float: left;
@@ -639,7 +672,8 @@ body{
     color: #fff;
     font-size: 17px;
     letter-spacing: 1px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .main-empty-block-2{
     float: left;
@@ -663,7 +697,7 @@ body{
     color: #333;
     font-size: 40px;
     font-weight: bold;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
     letter-spacing: 6px;
 }
 
@@ -676,7 +710,7 @@ body{
     color: #777;
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: "AgoraSansProMedium";
+    /*font-family: "AgoraSansProMedium";*/
 }
 .features-wrapper{
     float: left;
@@ -697,7 +731,7 @@ body{
     color: #333;
     font-size: 18px;
     letter-spacing: 1px;
-    font-family: "AgoraSansProLight";
+    /*font-family: "AgoraSansProLight";*/
 }
 
 .features-block p{
@@ -734,7 +768,8 @@ body{
     
     font-size: 40px;
     color: #333;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
     letter-spacing: 5px;
 }
 .lifetime-left p{
@@ -780,7 +815,8 @@ body{
     
     font-size: 40px;
     color: #333;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
     letter-spacing: 5px;
 }
 .whatwecan-right p{
@@ -823,7 +859,8 @@ body{
     color: #fff;
     letter-spacing: 5px;
     text-align: center;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .small{
     float: left;
@@ -849,7 +886,8 @@ body{
     font-size: 42px;
     color: #1f1f1f;
     text-align: center;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .our-clients-h2{
     float: left;
@@ -858,7 +896,7 @@ body{
     margin-top: 5px;
     color: #999;
     text-align: center;
-    font-family: "AgoraSansProThin";
+    /*font-family: "AgoraSansProThin";*/
 }
 .our-clients-line-wrapper{
     float: left;
@@ -898,7 +936,8 @@ body{
     
     background: rgba(255,255,255,0);
     position: absolute;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .slick-img{
     float: left;
@@ -916,7 +955,7 @@ body{
     margin-top: 5px;
     color: #999;
     text-align: center;
-    font-family: "AgoraSansProThin";
+    /*font-family: "AgoraSansProThin";*/
 }
 .slick-slide h1{
     float: left;
@@ -925,7 +964,8 @@ body{
     margin-top: 15px;
     color: #333;
     text-align: center;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .slick-slide h2{
     float: left;
@@ -958,7 +998,8 @@ body{
     font-size: 40px;
     color: #fff;
     letter-spacing: 2px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
     text-align: center;
 }
 #smart-solution p{
@@ -969,7 +1010,7 @@ body{
     font-size: 20px;
     color: #fff;
     line-height: 36px;
-    font-family: "AgoraSansProMedium";
+    /*font-family: "AgoraSansProMedium";*/
     text-align: center;
 }
 .smart-button-wrapper{
@@ -990,8 +1031,8 @@ body{
     -webkit-transition: .3s linear;
     transition: .3s linear;
     
-    font-family: "AgoraSansProBold";
-    font-weight: 900;
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 
     background:  rgba(255,255,255,0);
     color: #fff;
@@ -1027,7 +1068,8 @@ body{
     color: #fff;
     line-height: 30px;
     letter-spacing: 1px;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .footer-part-line{
     float: left;
@@ -1054,7 +1096,8 @@ body{
     color: #858585;
     -webkit-transition: .3s linear;
     transition: .3s linear;
-    font-family: "AgoraSansProBold";
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
 }
 .footer-part h3:hover{
     color: #3ab8bd;
@@ -1152,4 +1195,651 @@ body{
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+
+#header-about{
+    float: left;
+    width: 100%;
+    height: 335px;
+    background: transparent;
+}
+.header-about-back{
+    float: left;
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,.6);
+}
+.header-about-back h1{
+    float: left;
+    width: 100%;
+    margin-top: 95px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.header-about-line{
+    float: left;
+    width: 70px;
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: calc(50% - 35px);
+    margin-right: calc(50% - 35px);
+    background: #3ab8bd;
+}
+.header-about-row{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.header-about-back a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+}
+.header-about-back h2{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 100;
+    color: #bababa;
+}
+.header-white{
+    float: left;
+    width: 100%;
+    height: 91px;
+    background: #fff;
+}
+#about-icons{
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+.about-icons-wrapper{
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+.about-icon{
+    display: inline-block;
+    width: 20%;
+    margin: 0 1%;
+}
+.about-icon h1{
+    float: left;
+    width: 100%;
+    color: #333;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.about-icon p{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    color: #858585;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#about-skill{
+    float: left;
+    width: 100%;
+    background: #fff;
+    height: 550px;
+}
+.about-skill-img{
+    float: left;
+    width: 50%;
+    height: inherit;
+    background: url(../img/about-us-our-skill.jpg) center center no-repeat;
+    background-size: cover;
+}
+.about-skill-text{
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+
+#about-us{
+    float: left;
+    width: 100%;
+    background: #fff;
+    height: 550px;
+}
+.about-us-img{
+    float: left;
+    width: 50%;
+    height: inherit;
+    background: url(../img/about-us-about-us.jpg) center center no-repeat;
+    background-size: cover;
+}
+.about-us-text{
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+
+#about-team{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.about-team-h1{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 40px;
+    line-height: 48px;
+    
+}
+.about-team-p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+    line-height: 34px;
+    color: #999;
+}
+.header-team-line{
+    float: left;
+    width: 70px;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: calc(50% - 35px);
+    margin-right: calc(50% - 35px);
+    background: #3ab8bd;
+}
+
+#about-team-in{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.about-team-block{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin: 0 1%;
+    border: 1px solid rgba(133,133,133,0.3);
+}
+
+.service-block{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin: 0 1%;
+}
+.service-block-1{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: url(../img/service-block-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.service-block-2{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: url(../img/service-block-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.service-block-3{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: url(../img/service-block-3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+.about-team-img-1{
+    float: left;
+    width: 100%;
+    height: 370px;
+    background: url(../img/about-us-our-team-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.about-team-img-2{
+    float: left;
+    width: 100%;
+    height: 370px;
+    background: url(../img/about-us-our-team-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.about-team-img-3{
+    float: left;
+    width: 100%;
+    height: 370px;
+    background: url(../img/about-us-our-team-3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.about-team-img-back{
+    float: left;
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,0.5);
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    opacity: 0;
+}
+.about-team-block:hover .about-team-img-back{
+    opacity: 1;
+}
+
+.service-block-1:hover .about-team-img-back, .service-block-2:hover .about-team-img-back, .service-block-3:hover .about-team-img-back{
+    opacity: 1;
+}
+
+.about-team-text{
+    float: left;
+    width: 100%;
+}
+.about-team-text h1{
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    color: #333;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.about-team-text p{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    color: #ccc;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.service-text{
+    float: left;
+    width: 100%;
+}
+.service-text h1{
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.service-text p{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #858585;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: left;
+}
+
+#about-read{
+    float: left;
+    width: 100%;
+    
+    height: 300px;
+    background: url(../img/about-us-footer.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.about-read{
+    float: left;
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,0.8);
+}
+#about-read h1{
+    float: left;
+    width: 100%;
+    
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 36px;
+}
+.button-read-wrapper{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.button-read{
+    display: inline-block;
+    padding: 14px 30px 12px;
+    
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 25px;
+    border: 2px solid rgba(60, 186, 189, 1);
+    
+    color: #fff;
+    background: rgba(60, 186, 189, 0);
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+}
+.button-read:hover{
+    background:  rgba(60, 186, 189, 1);
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid rgba(60, 186, 189, 1);
+}
+
+
+
+#header-faq{
+    float: left;
+    width: 100%;
+    height: 335px;
+    background: transparent;
+}
+.header-faq-back{
+    float: left;
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,.6);
+}
+.header-faq-back h1{
+    float: left;
+    width: 100%;
+    margin-top: 95px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.header-faq-line{
+    float: left;
+    width: 70px;
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: calc(50% - 35px);
+    margin-right: calc(50% - 35px);
+    background: #3ab8bd;
+}
+.header-faq-row{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.header-faq-back a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+}
+.header-faq-back h2{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 100;
+    color: #bababa;
+}
+#faq{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.faq-left, .faq-right{
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.faq-left{
+    width: 40%;
+    margin-left: 10%;
+}
+.faq-left h1{
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+    color: #1f1f1f;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: bold;
+}
+.faq-ask{
+    float: left;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 25px;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+.faq-ask h2{
+    float: left;
+    margin: 25px 35px 25px 75px;
+    color: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.faq-ask h2:hover{
+    color: #3ab8bd;
+    cursor: pointer;
+}
+.faq-active{
+    color: #3ab8bd;
+}
+.faq-answer{
+    float: left;
+    width: 100%;
+    display: none;
+}
+.faq-answer p{
+    float: left;
+    margin: 25px 35px 25px 75px;
+    
+    color: #999;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.faq-right{
+    width: 50%;
+}
+.faq-right h1{
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    color: #1f1f1f;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: bold;
+}
+.faq-right h2{
+    float: left;
+    width: 100%;
+    margin: 0 25px 25px 25px;
+    color: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.faq-right p{
+    float: left;
+    margin: 0 25px 25px 25px;
+    
+    color: #999;
+    color: 14px;
+    line-height: 22px;
+    
+}
+
+.faq-right button{
+    float: left;
+    
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    
+    padding: 15px 30px;
+    border-radius: 25px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
+    font-size: 12px;
+    
+    background: #3ab8bd;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #3ab8bd;
+}
+.faq-right button:hover{
+    background: rgba(255,255,255,0);
+    color: #000;
+    font-weight: 600;
+    border: 2px solid #3ab8bd;
+}
+
+#contact{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.contact-left, .contact-right{
+    float: left;
+    margin-bottom: 100px;
+}
+.contact-left h1, .contact-right h1{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    color: #1f1f1f;
+    font-size: 40px;
+    line-height: 48px;
+    
+}
+
+.contact-left{
+    width: 25%;
+    margin-left: 15%;
+}
+.contact-left p{
+    float: left;
+    width: 100%;
+    
+    line-height: 27px;
+    font-size: 15px;
+    color: #858585;
+}
+.contact-right{
+    width: 45%;
+    margin-left: 1%;
+}
+.contact-line{
+    float: left;
+    width: 70px;
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background: #3ab8bd;
+}
+
+.contact-row, .contact-row-head{
+    float: left;
+    width: 100%;
+}
+.contact-row-head{
+    margin-top: 0px;
+}
+.contact-row{
+    margin-top: 25px;
+}
+
+.contact-right input{
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 20px;
+    font-family:"Lato";
+    background: #f7f7f7;
+    width: 38%;
+    margin-right: 25px;
+    max-width: 500px;
+}
+.contact-right input[type="text"]{
+    color: #aaa;
+}
+.contact-right input[type="text"]:focus {
+    color: #232323;
+    border: 1px solid #3ab8bd;
+}
+
+.contact-right textarea{
+    float: left;
+    color: #aaa;
+    height: 120px;
+    max-height: 120px;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,0);
+    max-width: 1000px;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family:"Lato";
+    background: #f7f7f7;
+}
+.contact-right textarea:focus{
+    color: #232323;
+    border: 1px solid #3ab8bd;
+}
+
+.contact-right button{
+    float: left;
+    
+    padding: 10px 40px;
+    border-radius: 25px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
+    font-size: 12px;
+    
+    font-weight: 600;
+    border: 2px solid #3ab8bd;
+    
+    background: rgba(255,255,255,0);
+    color: #000;
+}
+.contact-right button:hover{
+    background: #3ab8bd;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #3ab8bd;
 }
