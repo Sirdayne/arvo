@@ -26,6 +26,33 @@
 	}
 }
 
+@-webkit-keyframes skillLine {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes skillLine {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+.skillLine{
+    -webkit-animation-name: skillLine;
+	animation-name: skillLine;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
 .slideOutRightBig {
 	-webkit-animation-name: slideOutRightBig;
 	animation-name: slideOutRightBig;
@@ -1293,39 +1320,232 @@ body{
     float: left;
     width: 100%;
     background: #fff;
-    height: 550px;
 }
 .about-skill-img{
     float: left;
     width: 50%;
-    height: inherit;
+    height: 550px;
     background: url(../img/about-us-our-skill.jpg) center center no-repeat;
     background-size: cover;
 }
 .about-skill-text{
     float: left;
-    width: 50%;
-    height: inherit;
+    width: 40%;
+    height: 550px;
+    background: #f9f9f9;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+.about-skill-text h1{
+    float: left;
+    width: 100%;
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 55px;
+}
+.about-skill-text h2{
+    float: left;
+    width: 100%;
+    color: #999;
+    text-align: center;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+        font-weight: normal;
+}
+.skill-box{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+.skill-box-num{
+    float: right;
+    color: #333;
+    font-size: 13px;
+    line-height: 23px;
+}
+.skill-box-name{
+    float: left;
+    color: #999;
+    font-size: 13px;
+    line-height: 23px;
+}
+.skill-box-line{
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    height: 7px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.skill-line-1{
+    float: left;
+    max-width: 60%;
+    width: 60%;
+    height: 7px;
+    background: #3ab8bd;
+}
+.skill-line-2{
+    float: left;
+    max-width: 100%;
+    width: 100%;
+    height: 7px;
+    background: #3ab8bd;
+}
+.skill-line-3{
+    float: left;
+    max-width: 75%;
+    width: 75%;
+    height: 7px;
+    background: #3ab8bd;
+}
+.skill-line-4{
+    float: left;
+    max-width: 80%;
+    width: 80%;
+    height: 7px;
+    background: #3ab8bd;
+}
+.about-skill-text-line-wrapper{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.about-skill-text-line{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    margin-top: 15px;
+    background: #3ab8bd;
+}
+
 
 #about-us{
     float: left;
     width: 100%;
     background: #fff;
-    height: 550px;
 }
 .about-us-img{
     float: left;
     width: 50%;
-    height: inherit;
+    height: 550px;
     background: url(../img/about-us-about-us.jpg) center center no-repeat;
     background-size: cover;
 }
+.about-us-img h1{
+    float: left;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 75px;
+}
+.about-us-img h2{
+    float: left;
+    width: 100%;
+    color: #999;
+    text-align: center;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+.about-us-img-line-wrapper{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.about-us-img-line{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    margin-top: 15px;
+    background: #3ab8bd;
+}
+.about-us-img h3{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+.about-us-img-button{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.about-us-img button{
+    display: inline-block;
+    
+    padding: 15px 30px;
+    border-radius: 25px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    
+    /*font-family: "AgoraSansProBold";*/
+    font-weight: bold;
+    font-size: 12px;
+    
+    font-weight: 600;
+    border: 2px solid #3ab8bd;
+    
+    background: rgba(255,255,255,0);
+    color: #fff;
+}
+.about-us-img button:hover{
+    background: #3ab8bd;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #3ab8bd;
+}
+
+
+
 .about-us-text{
     float: left;
     width: 50%;
-    height: inherit;
+    height: 550px;
+    background: #f9f9f9;
 }
+.about-us-box{
+    float: left;
+    width: 45%;
+    height: 240px;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.about-us-box h1{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333;
+    margin-top: 125px;
+}
+.about-us-box p{
+    float: left;
+    width: 100%;
+    color: #888;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
 
 #about-team{
     float: left;

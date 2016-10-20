@@ -34,6 +34,26 @@
 }
 
 @media only screen and (max-width : 800px) {
+    .about-team-block{
+        width: 63%;
+        margin-bottom: 25px;
+    }
+    .about-icon{
+        width: 40%;
+        margin-bottom: 25px;
+    }
+    .about-skill-img{
+        width: 100%;
+    }
+    .about-skill-text{
+        width: 90%;
+    }
+    .about-us-text{
+        width: 100%;
+    }
+    .about-us-img{
+        width: 100%;
+    }
     .service-block{
         width: 55%;    
     }

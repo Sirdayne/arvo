@@ -111,15 +111,80 @@
             
             <div class="about-skill-img"></div>
             
-            <div class="about-skill-text"></div>
+            <div class="about-skill-text">
+                
+                <h1>Our Skill</h1>
+                <h2>Cras fringilla cursus libero, non sollicitudin tellus. Duis nec congue erat.</h2>
+                <div class="about-skill-text-line-wrapper">
+                    <div class="about-skill-text-line"></div>
+                </div>
+                
+                <div class="skill-box">
+                    <div class="skill-box-name">ILLUSTRATION</div>
+                    <div class="skill-box-num">60%</div>
+                    <div class="skill-box-line">
+                        <div class="skill-line-1"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-name">DESIGN</div>
+                    <div class="skill-box-num">100%</div>
+                    <div class="skill-box-line">
+                        <div class="skill-line-2"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-name">HTML/CSS</div>
+                    <div class="skill-box-num">75%</div>
+                    <div class="skill-box-line">
+                        <div class="skill-line-3"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-name">MARKETING</div>
+                    <div class="skill-box-num">80%</div>
+                    <div class="skill-box-line">
+                        <div class="skill-line-4"></div>
+                    </div>
+                </div>
+                
+            </div>
             
         </section>
         
         <section id="about-us">
             
-            <div class="about-us-text"></div>
+            <div class="about-us-text">
+                <div class="about-us-box">
+                    <h1 id="val-1"></h1>
+                    <p>CUP OF CAFFEE</p>
+                </div>
+                <div class="about-us-box">
+                    <h1 id="val-2"></h1>
+                    <p>FEATURES</p>
+                </div>
+                <div class="about-us-box">
+                    <h1 id="val-3"></h1>
+                    <p>HAPPY CUSTOMERS</p>
+                </div>
+                <div class="about-us-box">
+                    <h1 id="val-4"></h1>
+                    <p>SONGS LISTENED TO</p>
+                </div>
+            </div>
             
-            <div class="about-us-img"></div>
+            <div class="about-us-img">
+                
+                <h1>About us</h1>
+                <h2>Cras fringilla cursus libero, non sollicitudin tellus. Duis nec congue erat.</h2>
+                <div class="about-us-img-line-wrapper">
+                    <div class="about-us-img-line"></div>
+                </div>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste impedit debitis ducimus, sunt, velit voluptatibus. Id saepe delectus accusamus in. Velit, deserunt officia. Modi quas facere, itaque voluptatem distinctio repellat!</h3>
+                <div class="about-us-img-button">
+                    <button>READ MORE</button>
+                </div>
+            </div>
             
         </section>
         
@@ -314,5 +379,54 @@
 <script>
 $('#header-about').parallax({imageSrc: './img/about-us-header.jpg'});
 </script>
+
+ <script>
+    
+        $('.skill-line-1').waypoint( function(dir) {
+
+                $('.skill-line-1, .skill-line-2, .skill-line-3, .skill-line-4').addClass('skillLine');
+                        
+           }, {
+            offset: '100%'
+        });
+        
+        var RunOnce = 1;
+    
+        $('.about-us-text').waypoint( function(dir) {
+        
+                    if (RunOnce == 1) {
+            
+                         RunOnce = false;
+            
+                        $({n: 0}).animate({n: 2520}, {
+                            duration: 3E3,
+                            step: function (a) {
+                                $("#val-1").html(Math.round(a))
+                            }
+                        })
+                        $({n: 0}).animate({n: 1750}, {
+                            duration: 2E3,
+                            step: function (a) {
+                                $("#val-2").html(Math.round(a))
+                            }
+                        })
+                        $({n: 0}).animate({n: 25000}, {
+                            duration: 3E3,
+                            step: function (a) {
+                                $("#val-3").html(Math.round(a))
+                            }
+                        })
+                        $({n: 0}).animate({n: 680}, {
+                            duration: 3E3,
+                            step: function (a) {
+                                $("#val-4").html(Math.round(a ))
+                            }
+                        })
+                    }
+                        
+           }, {
+            offset: '100%'
+        }) 
+    </script>
 </body>
 </html>
