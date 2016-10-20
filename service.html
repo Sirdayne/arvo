@@ -128,11 +128,81 @@
             </div>
             
         </section>
-              
-        <section id="about-read">
-            <div class="about-read">
-                <h1>We Are A Results Driven, Digital Specialist Business.</h1>
-                <div class="button-read-wrapper"><button class="button-read">READ MORE</button></div>
+        
+        <section id="section-why">
+            <h1>Why Choose Us</h1>
+            <h2>Cras fringilla cursus libero, non sollicitudin tellus. Duis nec congue erat.</h2>
+            <div class="why-line-wrapper">
+                <div class="why-line"></div>
+            </div>
+            <div class="why-wrapper">
+                <div class="why-box">
+                    <h3>Innovative Ideas</h3>
+                    <p>Maec enas tempus, tellus eget condi men rhon cus, sem quam semper libe ro, sit amet adipiscing sem</p>
+                </div>
+                <div class="why-box">
+                    <h3>Web Design and UI</h3>
+                    <p>Maec enas tempus, tellus eget condi men rhon cus, sem quam semper libe ro, sit amet adipiscing sem</p>
+                </div>
+                <div class="why-box">
+                    <h3>Extensive Documentation</h3>
+                    <p>Maec enas tempus, tellus eget condi men rhon cus, sem quam semper libe ro, sit amet adipiscing sem</p>
+                </div>
+                <div class="why-box">
+                    <h3>Reatina Ready Design</h3>
+                    <p>Maec enas tempus, tellus eget condi men rhon cus, sem quam semper libe ro, sit amet adipiscing sem</p>
+                </div>
+                <div class="why-box">
+                    <h3>Graphic Design</h3>
+                    <p>Maec enas tempus, tellus eget condi men rhon cus, sem quam semper libe ro, sit amet adipiscing sem</p>
+                </div>
+                <div class="why-box">
+                    <h3>Transiation Ready</h3>
+                    <p>Maec enas tempus, tellus eget condi men rhon cus, sem quam semper libe ro, sit amet adipiscing sem</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="service-num">
+            <div class="service-num">
+                <div class="service-num-wrapper">
+                    <div class="service-num-box">
+                        <h1 id="val-1"></h1>
+                        <div class="service-num-line-wrapper">
+                            <div class="service-num-line"></div>
+                        </div>
+                        <p>COFFEE CUPS</p>
+                    </div>
+                    <div class="service-num-x">
+                        <h1>X</h1>
+                    </div>
+                    <div class="service-num-box">
+                        <h1 id="val-2"></h1>
+                        <div class="service-num-line-wrapper">
+                            <div class="service-num-line"></div>
+                        </div>
+                        <p>PROJECTS</p>
+                    </div>
+                    <div class="service-num-x mob-x">
+                        <h1>X</h1>
+                    </div>
+                    <div class="service-num-box">
+                        <h1 id="val-3"></h1>
+                        <div class="service-num-line-wrapper">
+                            <div class="service-num-line"></div>
+                        </div>
+                        <p>WORKING DAY</p>
+                    </div>
+                    <div class="service-num-x">
+                        <h1>X</h1>
+                    </div><div class="service-num-box">
+                        <h1 id="val-4"></h1>
+                        <div class="service-num-line-wrapper">
+                            <div class="service-num-line"></div>
+                        </div>
+                        <p>CLIENTS</p>
+                    </div>
+                </div>
             </div>
         </section>
         
@@ -269,5 +339,48 @@
 <script>
 $('#header-about').parallax({imageSrc: './img/header-service.jpg'});
 </script>
+
+ <script>
+        //new WOW().init();
+        var RunOnce = 1;
+    
+        $('#service-num').waypoint( function(dir) {
+
+                $('.diag-values-box').addClass('run-diag');
+        
+                    if (RunOnce == 1) {
+            
+                         RunOnce = false;
+            
+                        $({n: 0}).animate({n: 2152}, {
+                            duration: 3E3,
+                            step: function (a) {
+                                $("#val-1").html(Math.round(a))
+                            }
+                        })
+                        $({n: 0}).animate({n: 1575}, {
+                            duration: 2E3,
+                            step: function (a) {
+                                $("#val-2").html(Math.round(a))
+                            }
+                        })
+                        $({n: 0}).animate({n: 250}, {
+                            duration: 3E3,
+                            step: function (a) {
+                                $("#val-3").html(Math.round(a))
+                            }
+                        })
+                        $({n: 0}).animate({n: 68}, {
+                            duration: 3E3,
+                            step: function (a) {
+                                $("#val-4").html(Math.round(a ))
+                            }
+                        })
+                    }
+                        
+           }, {
+            offset: '100%'
+        }) 
+    </script>
 </body>
 </html>

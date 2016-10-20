@@ -34,7 +34,19 @@
 }
 
 @media only screen and (max-width : 800px) {
-     .contact-left, .contact-right{
+    .service-block{
+        width: 55%;    
+    }
+    .why-box{
+        width: 90%;
+    }
+    .service-num-box{
+        width: 45%;
+    }
+    .mob-x{
+        display: none;
+    }
+    .contact-left, .contact-right{
         width: 100%;
         margin: 25px;
     }

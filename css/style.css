@@ -1469,6 +1469,76 @@ body{
     font-weight: bold;
 }
 
+#section-why{
+    float: left;
+    width: 100%;
+    background: #f5f5f5;
+}
+#section-why h1{
+    float: left;
+    width: 100%;
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 95px;
+}
+#section-why h2{
+    float: left;
+    width: 100%;
+    color: #999;
+    text-align: center;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+}
+.why-line-wrapper{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.why-line{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    margin-top: 15px;
+    background: #3ab8bd;
+}
+.why-wrapper{
+    float: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 75px;
+}
+.why-box{
+    float: left;
+    width: 33%;
+    margin-top: 75px;
+}
+.why-box h3{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    color: #333;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .4px;
+    font-weight: bold;
+}
+.why-box p{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 15px;
+    color: #858585;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: .5px;
+}
+
+
 .service-text{
     float: left;
     width: 100%;
@@ -1484,6 +1554,71 @@ body{
     line-height: 24px;
     font-weight: bold;
     text-align: left;
+}
+#service-num{
+    float: left;
+    width: 100%;
+    background: url(../img/header-faq.jpg) center center no-repeat;
+    background-size: cover;
+}
+.service-num{
+    float: left;
+    width: 100%;
+    background: rgba(60,186,189,0.9);
+}
+.service-num-wrapper{
+    float: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.service-num-box{
+    float: left;
+    width: 21%;
+    margin-bottom: 55px;
+}
+.service-num-box h1{
+    float: left;
+    width: 100%;
+    margin-top: 55px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+}
+.service-num-line-wrapper{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.service-num-line{
+    display: inline-block;
+    width: 35px;
+    height: 3px;
+    background: #fff;
+}
+.service-num-box p{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+}
+.service-num-x{
+    float: left;
+    width: 5%;
+}
+.service-num-x h1{
+    margin-top: 110px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 100;
 }
 
 .service-text p{
@@ -1550,6 +1685,7 @@ body{
     font-weight: 600;
     border: 2px solid rgba(60, 186, 189, 1);
 }
+
 
 
 
