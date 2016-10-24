@@ -59,6 +59,16 @@ $(document).ready(function(){
         $('#main-more').slideToggle(1200);
         
     });
+    
+    $('.header-right-button-1, .main-button').click(function() {
+        $('.modal-back-1').fadeIn('fast');
+        $('.modal').fadeIn('fast');
+    });
+    
+    $('.modal-back-1, .modal-close').click(function() {
+        $('.modal-back-1').fadeOut('fast');
+        $('.modal').fadeOut('fast');
+    });
 
     var telephone = $('#telephone');
     
