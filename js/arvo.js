@@ -54,6 +54,11 @@ $(document).ready(function(){
         
         $('.navigation').slideUp('slow');
     });
+    
+    $('.more-service-lines').click(function() {
+        $('#main-more').slideToggle(1200);
+        
+    });
 
     var telephone = $('#telephone');
     
@@ -91,7 +96,7 @@ $(document).ready(function(){
             if (direction === 'down') {
                 $('.navigation-white').addClass('navigation-white-active');
                 $('.nav-white').addClass('nav-active');
-                $('.nav-logo-white').addClass('nav-logo-active');
+                $('.nav-logo-white').addClass('nav-logo-white-active');
                 
                 $(scrollTop).removeClass('slideOutRightBig');
                 $(scrollTop).addClass('slideInRightBig');
@@ -101,7 +106,7 @@ $(document).ready(function(){
             else {
                 $('.navigation-white').removeClass('navigation-white-active');
                 $('.nav-white').removeClass('nav-active');
-                $('.nav-logo-white').removeClass('nav-logo-active');
+                $('.nav-logo-white').removeClass('nav-logo-white-active');
                 
                 $(scrollTop).removeClass('slideInRightBig');
                 $(scrollTop).addClass('slideOutRightBig');
