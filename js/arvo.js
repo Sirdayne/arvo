@@ -68,6 +68,7 @@ $(document).ready(function(){
     $('.modal-back-1, .modal-close').click(function() {
         $('.modal-back-1').fadeOut('fast');
         $('.modal').fadeOut('fast');
+        $('.thx').fadeOut('fast');
     });
 
     var telephone = $('#telephone');

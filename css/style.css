@@ -424,6 +424,24 @@ body{
     z-index: 9;
     display: none;
 }
+.thx{
+    position: fixed;
+    left: 20%;
+    top: 100px;
+    width: 60%;
+    text-align: center;
+    font-family:"AgoraSansProMedium";
+    color: #232323;
+    font-size: 34px;
+    background: #fff;
+    
+    z-index: 10;
+    display: none;
+}
+.thx p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .modal{
     position: fixed;
     top: 100px;
@@ -455,7 +473,7 @@ body{
     max-width: 500px;
 }
 .modal input{
-    color: #aaa;
+    color: #232323;
 }
 .modal input:focus {
     color: #232323;
@@ -1284,7 +1302,7 @@ body{
     margin-bottom: 20px;
     height: 3px;
     width: 80px;
-    background: #373695;
+    background: #6c31c4;
 }
 
 .slick-slider{
@@ -1462,7 +1480,7 @@ body{
     margin-top: 25px;
     margin-bottom: 35px;
     margin-right: calc(100% - 70px);
-    background: #373695;
+    background: #6c31c4;
 }
 .footer-part h2{
     float: left;
@@ -1535,7 +1553,6 @@ body{
     font-size: 18px;
     color: #fff;
     font-weight: normal;
-    letter-spacing: 1px;
     font-family: "AgoraSansProLight";
 }
 .under-footer-right img{
@@ -1623,7 +1640,7 @@ body{
     margin-bottom: 25px;
     margin-left: calc(50% - 35px);
     margin-right: calc(50% - 35px);
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .header-about-row{
     float: left;
@@ -1754,28 +1771,28 @@ body{
     max-width: 60%;
     width: 60%;
     height: 7px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .skill-line-2{
     float: left;
     max-width: 100%;
     width: 100%;
     height: 7px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .skill-line-3{
     float: left;
     max-width: 75%;
     width: 75%;
     height: 7px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .skill-line-4{
     float: left;
     max-width: 80%;
     width: 80%;
     height: 7px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .about-skill-text-line-wrapper{
     float: left;
@@ -1787,7 +1804,7 @@ body{
     width: 70px;
     height: 3px;
     margin-top: 15px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 
 
@@ -1833,7 +1850,7 @@ body{
     width: 70px;
     height: 3px;
     margin-top: 15px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .about-us-img h3{
     float: left;
@@ -1947,7 +1964,7 @@ body{
     margin-bottom: 5px;
     margin-left: calc(50% - 35px);
     margin-right: calc(50% - 35px);
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 
 #about-team-in{
@@ -1955,7 +1972,9 @@ body{
     width: 100%;
     margin-top: 50px;
     text-align: center;
-    padding-bottom: 100px;
+}
+#about-team-in>.main-block>p{
+    color: #323232;
 }
 .about-team-block{
     display: inline-block;
@@ -2091,7 +2110,7 @@ body{
     width: 70px;
     height: 3px;
     margin-top: 15px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .why-wrapper{
     float: left;
@@ -2307,7 +2326,7 @@ body{
     margin-bottom: 25px;
     margin-left: calc(50% - 35px);
     margin-right: calc(50% - 35px);
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 .header-faq-row{
     float: left;
@@ -2489,7 +2508,7 @@ body{
     height: 3px;
     margin-top: 25px;
     margin-bottom: 50px;
-    background: #3ab8bd;
+    background: #6c31c4;
 }
 
 .contact-row, .contact-row-head{

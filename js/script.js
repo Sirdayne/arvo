@@ -12,12 +12,12 @@ $(document).ready(function() {
 		}).done(function() {
             
             
-            $('.offer-call').fadeOut('fast');
-            $('.modal-back').fadeIn('fast');
+            $('.modal').fadeOut('fast');
+            $('.modal-back-1').fadeIn('fast');
             $('.thx').fadeIn('fast');
             
-            yaCounter39717215.reachGoal('send');
-            ga('send', 'event', 'form', 'success');
+            //yaCounter39717215.reachGoal('send');
+            //ga('send', 'event', 'form', 'success');
             
 			setTimeout(function() {
 				// Done Functions
