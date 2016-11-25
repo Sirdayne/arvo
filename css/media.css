@@ -4,7 +4,16 @@
 }
 
 @media only screen and (max-height : 1000px) {
-   
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+        height: 300px;
+    }
+   .main-button-wrapper{
+        margin-top: 105px;
+    }
+    .main-block{
+        height: 450px;
+    }
+    
 }
 
 @media only screen and (max-height : 700px) {
@@ -12,6 +21,17 @@
 }
 
 /* mobile WIDTH fixes */
+@media only screen and (max-width : 1300px) {
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+        height: 220px;
+    }
+    .main-button-wrapper{
+        margin-top: 55px;
+    }
+    .main-block{
+        height: 370px;
+    }
+}
 @media only screen and (max-width : 1100px) {
     .nav{
         margin-right: 35px;
@@ -31,6 +51,15 @@
         width: 100%;
         margin-bottom: 15px;
     }
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+        height: 150px;
+    }
+    .main-button-wrapper{
+        margin-top: 25px;
+    }
+    .main-block{
+        height: 300px;
+    }
 }
 
 @media only screen and (max-width : 900px) {
@@ -42,6 +71,28 @@
 }
 
 @media only screen and (max-width : 800px) {
+    .nav-mob{
+        display: block;
+    }
+    .nav-desc{
+        display: none;
+    }
+    
+    .faq-ask h2{
+        margin: 15px;
+    }
+    .faq-mob p{
+        margin: 15px;
+    }
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+        height: 350px;
+    }
+    .main-button-wrapper{
+        margin-top: 135px;
+    }
+    .main-block{
+        height: 450px;
+    }
     .modal{
         width: 80%;
         left: 10%;
@@ -82,9 +133,12 @@
         width: 100%;
         margin: 25px;
     }
+    .faq-left h1{
+        text-align: center;
+    }
     .faq-left, .faq-right{
         width: 100%;
-        margin: 25px 5px 25px 5px;
+        margin: 5px 0;
     }
     .header-white{
         display: none;
@@ -126,7 +180,7 @@
         display: none;
     }
     .nav{
-        float: left;
+        float: right;
         width: calc(100% - 30px);
         padding: 15px;
         margin: 0;
@@ -186,6 +240,15 @@
      .lifetime-left, .whatwecan-right{
         height: 300px;
     }
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+        height: 200px;
+    }
+    .main-button-wrapper{
+        margin-top: 55px;
+    }
+    .main-block{
+        height: 350px;
+    }
 }
 @media only screen and (max-width : 600px) { 
     .header-left{
@@ -198,6 +261,9 @@
     }
 }
 @media only screen and (max-width : 450px) { 
+    .about-icon{
+        width: 80%;
+    }
     .header-left{
         height: 50px;
     }
