@@ -626,6 +626,18 @@ body{
     color: #373695;
 }
 
+.navigation-white .nav a{
+   color: #373695;
+}
+.navigation-white .nav a:hover{
+   color: #000;
+}
+
+.navigation-white-active .nav{
+    margin-top: 20px;
+}
+
+
 #header{
     float: left;
     position: relative;
@@ -1492,6 +1504,7 @@ body{
     margin-bottom: 25px;
     
     text-align: justify;
+    font-weight: 100;
 }
 .footer-part h3{
     float: left;
@@ -1697,7 +1710,7 @@ body{
     float: left;
     width: 100%;
     color: #333;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: bold;
 }
@@ -2533,11 +2546,11 @@ body{
 }
 
 .contact-right input{
-    font-size: 15px;
+    font-size: 16px;
     outline: none;
     border: 1px solid rgba(0,0,0,0);
     padding: 20px;
-    font-family:"Lato";
+    font-family: "Arial";
     background: #f7f7f7;
     width: 38%;
     margin-right: 25px;
@@ -2548,7 +2561,7 @@ body{
 }
 .contact-right input[type="text"]:focus {
     color: #232323;
-    border: 1px solid #3ab8bd;
+    border: 1px solid #6c31c4;
 }
 
 .contact-right textarea{
@@ -2562,13 +2575,13 @@ body{
     width: 85%;
     border: none;
     outline: none;
-    font-size: 15px;
-    font-family:"Lato";
+    font-size: 16px;
+    font-family: "Arial";
     background: #f7f7f7;
 }
 .contact-right textarea:focus{
     color: #232323;
-    border: 1px solid #3ab8bd;
+    border: 1px solid #6c31c4;
 }
 
 .contact-right button{
@@ -2585,14 +2598,14 @@ body{
     font-size: 12px;
     
     font-weight: 600;
-    border: 2px solid #3ab8bd;
+    border: 2px solid #6c31c4;
     
     background: rgba(255,255,255,0);
     color: #000;
 }
 .contact-right button:hover{
-    background: #3ab8bd;
+    background: #6c31c4;
     color: #fff;
     font-weight: 600;
-    border: 2px solid #3ab8bd;
+    border: 2px solid #6c31c4;
 }
