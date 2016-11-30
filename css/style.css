@@ -836,7 +836,7 @@ body{
     margin-left: 2%;
     margin-right: 1%;
 }
-.main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+.main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15,  .main-16,  .main-17{
     float: left;
     width: 100%;
     height: 400px;
@@ -903,10 +903,18 @@ body{
     background: url(../img/image_11.png) center center no-repeat;
     background-size: 100% 100%;
 }
-.main-1:hover, .main-2:hover, .main-3:hover,  .main-4:hover,  .main-5:hover,  .main-6:hover,  .main-7:hover,  .main-8:hover,  .main-9:hover,  .main-10:hover,  .main-11:hover,  .main-12:hover,  .main-13:hover,  .main-14:hover, .main-15:hover{
+.main-16{
+    background: url(../img/image_12.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.main-17{
+    background: url(../img/image_13.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.main-1:hover, .main-2:hover, .main-3:hover,  .main-4:hover,  .main-5:hover,  .main-6:hover,  .main-7:hover,  .main-8:hover,  .main-9:hover,  .main-10:hover,  .main-11:hover,  .main-12:hover,  .main-13:hover,  .main-14:hover, .main-15:hover, .main-16:hover, .main-17:hover{
     background-size: 125% 125%;
 }
-.main-1:hover .main-modal, .main-2:hover .main-modal, .main-3:hover .main-modal, .main-4:hover .main-modal, .main-5:hover .main-modal, .main-6:hover .main-modal, .main-7:hover .main-modal, .main-8:hover .main-modal, .main-9:hover .main-modal, .main-10:hover .main-modal, .main-11:hover .main-modal, .main-12:hover .main-modal, .main-13:hover .main-modal, .main-14:hover .main-modal, .main-15:hover .main-modal{
+.main-1:hover .main-modal, .main-2:hover .main-modal, .main-3:hover .main-modal, .main-4:hover .main-modal, .main-5:hover .main-modal, .main-6:hover .main-modal, .main-7:hover .main-modal, .main-8:hover .main-modal, .main-9:hover .main-modal, .main-10:hover .main-modal, .main-11:hover .main-modal, .main-12:hover .main-modal, .main-13:hover .main-modal, .main-14:hover .main-modal, .main-15:hover .main-modal, .main-16:hover .main-modal, .main-17:hover .main-modal{
     opacity: 1;
 }
 

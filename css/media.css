@@ -4,7 +4,7 @@
 }
 
 @media only screen and (max-height : 1000px) {
-    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15, .main-16, .main-17{
         height: 300px;
     }
    .main-button-wrapper{
@@ -22,7 +22,7 @@
 
 /* mobile WIDTH fixes */
 @media only screen and (max-width : 1300px) {
-    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15, .main-16, .main-17{
         height: 220px;
     }
     .main-button-wrapper{
@@ -51,7 +51,7 @@
         width: 100%;
         margin-bottom: 15px;
     }
-    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15, .main-16, .main-17{
         height: 150px;
     }
     .main-button-wrapper{
@@ -84,7 +84,7 @@
     .faq-mob p{
         margin: 15px;
     }
-    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15, .main-16, .main-17{
         height: 350px;
     }
     .main-button-wrapper{
@@ -240,7 +240,7 @@
      .lifetime-left, .whatwecan-right{
         height: 300px;
     }
-    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15{
+    .main-1, .main-2, .main-3,  .main-4,  .main-5,  .main-6,  .main-7,  .main-8,  .main-9,  .main-10,  .main-11,  .main-12,  .main-13,  .main-14,  .main-15, .main-16, .main-17{
         height: 200px;
     }
     .main-button-wrapper{
